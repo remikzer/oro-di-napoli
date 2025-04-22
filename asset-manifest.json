@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/oro-di-napoli/static/css/main.b7c95e53.css",
-    "main.js": "/oro-di-napoli/static/js/main.48623905.js",
+    "main.js": "/oro-di-napoli/static/js/main.04e194c5.js",
     "index.html": "/oro-di-napoli/index.html",
     "main.b7c95e53.css.map": "/oro-di-napoli/static/css/main.b7c95e53.css.map",
-    "main.48623905.js.map": "/oro-di-napoli/static/js/main.48623905.js.map"
+    "main.04e194c5.js.map": "/oro-di-napoli/static/js/main.04e194c5.js.map"
   },
   "entrypoints": [
     "static/css/main.b7c95e53.css",
-    "static/js/main.48623905.js"
+    "static/js/main.04e194c5.js"
   ]
 }
