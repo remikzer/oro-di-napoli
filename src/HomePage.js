@@ -88,7 +88,11 @@ export default function HomePage() {
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 w-full z-30 flex justify-between items-center px-6 py-4 bg-black/50 backdrop-blur-sm">
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="w-10 h-10 rounded-full" />
+          <img
+            src={`${process.env.PUBLIC_URL}/logo.png`}
+            alt="Logo"
+            className="w-10 h-10 rounded-full"
+          />
           <span className="text-white font-bold text-lg uppercase tracking-widest">
             Oro di Napoli
           </span>
@@ -152,7 +156,7 @@ export default function HomePage() {
       {/* HEADER VISUEL */}
       <header className="relative h-screen w-full">
         <img
-          src="/images/header.jpg"
+          src={`${process.env.PUBLIC_URL}/images/header.jpg`}
           alt="Fond italien"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
@@ -275,28 +279,28 @@ export default function HomePage() {
           >
             <div>
               <img
-                src="/images/plats1.jpg"
+                src={`${process.env.PUBLIC_URL}/images/plats1.jpg`}
                 className="w-full h-[400px] object-cover"
                 alt="Plat italien"
               />
             </div>
             <div>
               <img
-                src="/images/plats2.jpg"
+                src={`${process.env.PUBLIC_URL}/images/plats2.jpg`}
                 className="w-full h-[400px] object-cover"
                 alt="Pizza artisanale"
               />
             </div>
             <div>
               <img
-                src="/images/salle1.jpg"
+                src={`${process.env.PUBLIC_URL}/images/salle1.jpg`}
                 className="w-full h-[400px] object-cover"
                 alt="Salle du restaurant"
               />
             </div>
             <div>
               <img
-                src="/images/dessert.jpg"
+                src={`${process.env.PUBLIC_URL}/images/dessert.jpg`}
                 className="w-full h-[400px] object-cover"
                 alt="Dessert italien"
               />
